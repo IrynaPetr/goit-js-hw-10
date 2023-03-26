@@ -7,9 +7,11 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-image: url("https://celes.club/uploads/posts/2022-10/thumbs/1667215603_2-celes-club-p-zhovto-blakitnii-fon-instagram-2.jpg");
+  background-size: cover;
   color: #212121;
   line-height: 1.5;
+ 
 }
 
 #search-box {
@@ -17,4 +19,38 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+ul, .country-list {list-style: none;}
+
+.country-list {
+  margin-left: 50px;
+
+}
+.country-list-item {
+  display: flex;
+  
+}
+
+.country-list-flag {
+  margin: auto 20px;
+}
+
+.country-list-name {
+  margin-left: 20px;
+}
+.country-info-list {
+  display: block;
+  min-width: 150px;
+  margin-left: 30px;
+  border-width: 6px;
+  border-style: double;
+  border-color: darkblue;
+}
+
+.country-info {
+  margin-left: 230px;
+  margin-right: 400px;
 }
